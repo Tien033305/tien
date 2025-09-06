@@ -42,15 +42,54 @@
             <ul>
                  <li><a href="http://tien.fwh.is/connect.php">Bài tập </a></li>
                 <li><a href="https://github.com/Tien033305/tien/blob/main/mydb.sql"> Xem mydb.sql </a></li>
-                <li>
-                  <a href="#">Minh chứng</a>
-                  <ul>
-                    <li><a href="blob:https://www.facebook.com/7eff445d-4c34-4c9e-b953-9a134cefac69" target="_blank">Ảnh minh chứng 1</a></li>
-                    <li><a href="blob:https://www.facebook.com/621cb187-37af-4182-87cd-b07df19ed0f5" target="_blank">Ảnh minh chứng 2</a></li>
-                    <li><a href="blob:https://www.facebook.com/7a9b991e-bd3a-43cc-9562-7283d209e223" target="_blank">Ảnh minh chứng </a></li>
-                  </ul>
-</li>
+               <ul>
+  <li>
+    <a href="#">Minh chứng ▾</a>
+    <ul>
+     <li><a href="https://www.facebook.com/7eff445d-4c34-4c9e-b953-9a134cefac69" target="_blank">Ảnh minh chứng 1</a></li>
+                    <li><a href="https://www.facebook.com/621cb187-37af-4182-87cd-b07df19ed0f5" target="_blank">Ảnh minh chứng 2</a></li>
+                    <li><a href="https://www.facebook.com/7a9b991e-bd3a-43cc-9562-7283d209e223" target="_blank">Ảnh minh chứng </a></li>
+    </ul>
+  </li>
+</ul>
 
+<style>
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul li {
+  position: relative;
+  display: inline-block;
+}
+
+ul li a {
+  display: block;
+  padding: 8px 12px;
+  text-decoration: none;
+  background: #3498db;
+  color: white;
+}
+
+ul li ul {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  padding: 0;
+}
+
+ul li ul li a {
+  background: #2980b9;
+  white-space: nowrap;
+}
+
+ul li:hover ul {
+  display: block;
+}
+</style>
 
             </ul>
         </section>
@@ -61,6 +100,7 @@
     </footer>
 </body>
 </html>
+
 
 
 
